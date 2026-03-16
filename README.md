@@ -1,4 +1,4 @@
-LIVRABLE 1 : README.md
+# LIVRABLE 1 : README.md
 
 ### 📌 Objectifs du Projet
 
