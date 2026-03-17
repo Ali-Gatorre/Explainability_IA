@@ -35,11 +35,11 @@ pip install pandas numpy scikit-learn shap codecarbon aif360 fairlearn kagglehub
 * Audit de biais via AIF360.
 
 
-###🧠 Pull Request — MVP Web Application (Dashboard RH Explainable AI)
+### 🧠 Pull Request — MVP Web Application (Dashboard RH Explainable AI)
 
 Cette pull request introduit la première version MVP de notre solution, implémentée sous forme de web application full-stack.
 
-###🚀 Vue d’ensemble
+### 🚀 Vue d’ensemble
 
 Ce MVP vise à fournir un dashboard RH interactif et explicable permettant d’analyser le risque de démission des employés.
 
@@ -96,7 +96,7 @@ Interface propre, responsive et orientée produit
 
 👉 Il sera remplacé dans les prochaines étapes par un modèle de machine learning entraîné via le notebook.
 
-🎯 Objectif
+### 🎯 Objectif
 
 Ce MVP démontre :
 
