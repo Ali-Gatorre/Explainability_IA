@@ -35,11 +35,11 @@ pip install pandas numpy scikit-learn shap codecarbon aif360 fairlearn kagglehub
 * Audit de biais via AIF360.
 
 
-🧠 Pull Request — MVP Web Application (Dashboard RH Explainable AI)
+###🧠 Pull Request — MVP Web Application (Dashboard RH Explainable AI)
 
 Cette pull request introduit la première version MVP de notre solution, implémentée sous forme de web application full-stack.
 
-🚀 Vue d’ensemble
+###🚀 Vue d’ensemble
 
 Ce MVP vise à fournir un dashboard RH interactif et explicable permettant d’analyser le risque de démission des employés.
 
@@ -49,7 +49,7 @@ un backend FastAPI pour le traitement des données et l’estimation du risque
 
 un frontend React pour la visualisation et l’interaction utilisateur
 
-🛠️ Fonctionnalités principales
+###🛠️ Fonctionnalités principales
 🔹 Backend (FastAPI)
 
 API REST pour la gestion des employés :
@@ -78,7 +78,7 @@ Dashboard RH interactif
 
 Tableau des employés avec :
 
-recherche 🔍
+### recherche 🔍
 
 filtres (département, niveau de risque)
 
@@ -90,7 +90,7 @@ Suppression d’employé
 
 Interface propre, responsive et orientée produit
 
-🧪 Logique du MVP
+### 🧪 Logique du MVP
 
 À ce stade, le moteur de prédiction repose sur un système de règles heuristiques simulant le comportement d’un modèle.
 
@@ -106,7 +106,7 @@ une approche orientée explicabilité
 
 une intégration des enjeux éthiques et frugaux de l’IA
 
-📌 Prochaines étapes
+### 📌 Prochaines étapes
 
 Intégration du modèle ML réel
 
