@@ -49,7 +49,7 @@ un backend FastAPI pour le traitement des données et l’estimation du risque
 
 un frontend React pour la visualisation et l’interaction utilisateur
 
-###🛠️ Fonctionnalités principales
+### 🛠️ Fonctionnalités principales
 🔹 Backend (FastAPI)
 
 API REST pour la gestion des employés :
