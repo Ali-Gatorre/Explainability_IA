@@ -33,3 +33,85 @@ pip install pandas numpy scikit-learn shap codecarbon aif360 fairlearn kagglehub
 * Génération des prédictions (probabilités).
 * Génération des visualisations SHAP.
 * Audit de biais via AIF360.
+
+
+🧠 Pull Request — MVP Web Application (Dashboard RH Explainable AI)
+
+Cette pull request introduit la première version MVP de notre solution, implémentée sous forme de web application full-stack.
+
+🚀 Vue d’ensemble
+
+Ce MVP vise à fournir un dashboard RH interactif et explicable permettant d’analyser le risque de démission des employés.
+
+La solution repose sur :
+
+un backend FastAPI pour le traitement des données et l’estimation du risque
+
+un frontend React pour la visualisation et l’interaction utilisateur
+
+🛠️ Fonctionnalités principales
+🔹 Backend (FastAPI)
+
+API REST pour la gestion des employés :
+
+GET /employees
+
+POST /employees
+
+DELETE /employees/{id}
+
+Système de scoring heuristique (proxy du futur modèle ML)
+
+Intégration d’une base de données SQLite (stockage persistant)
+
+Endpoints d’analyse :
+
+/insights/overview
+
+/insights/fairness
+
+/insights/frugality
+
+🔹 Frontend (React)
+
+Dashboard RH interactif
+
+Tableau des employés avec :
+
+recherche 🔍
+
+filtres (département, niveau de risque)
+
+tri (risque, ancienneté, ordre alphabétique)
+
+Formulaire d’ajout d’employé avec estimation automatique du risque
+
+Suppression d’employé
+
+Interface propre, responsive et orientée produit
+
+🧪 Logique du MVP
+
+À ce stade, le moteur de prédiction repose sur un système de règles heuristiques simulant le comportement d’un modèle.
+
+👉 Il sera remplacé dans les prochaines étapes par un modèle de machine learning entraîné via le notebook.
+
+🎯 Objectif
+
+Ce MVP démontre :
+
+une pipeline complète (data → prédiction → interface)
+
+une approche orientée explicabilité
+
+une intégration des enjeux éthiques et frugaux de l’IA
+
+📌 Prochaines étapes
+
+Intégration du modèle ML réel
+
+Ajout d’un module d’explicabilité (type SHAP)
+
+Amélioration des métriques de fairness
+
+Ajout de visualisations (graphiques)
